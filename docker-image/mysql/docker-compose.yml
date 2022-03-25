@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   mysql:
+    container_name: UTN_mysql
     image: mysql:8
     ports:
       - 3306:3306
