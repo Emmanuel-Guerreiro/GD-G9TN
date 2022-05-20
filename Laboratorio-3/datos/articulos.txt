@@ -1,0 +1,26 @@
+  codart  |              descrip              | precio | stock | stock_min | dto 
+----------+-----------------------------------+--------+-------+-----------+-----
+ IM3P32V  | Interruptor magnetotérmico 4p, 2  |  27.01 |     1 |         1 |    
+ im4P10L  | Interruptor magnetotérmico 4p, 4  |   32.6 |     1 |         1 |    
+ L14340   | Bases de fusibles cuchillas T0    |   0.51 |     3 |         3 |    
+ L17055   | Bases de fusible cuchillas T3     |   7.99 |     3 |         3 |    
+ L76424   | Placa 2 E. legrand serie mosaic   |    2.9 |     5 |         2 |    
+ L85459   | Tecla legrand marfil              |    2.8 |       |         4 |    
+ L85546   | Tecla difusores legrand bronce    |   1.05 |    13 |         5 |    
+ L92119   | Portalámparas 14 curvo            |   5.98 |     2 |         1 |    
+ ME200    | Marco Bjc Ibiza 2 elementos       |  13.52 |     1 |         1 |    
+ N5072    | Pulsador luz piloto Niessen trazo |   1.33 |    11 |         2 |    
+ N8017BA  | Reloj Orbis con reserva de cuerda |    3.4 |     7 |         4 |    
+ P695     | Caja 1 elem. plastimetal          |   1.65 |    16 |         9 |    
+ P605     | Interruptor rotura brusca 100 A M |  13.22 |     1 |         1 |    
+ P924     | Interruptor marrón dec. con visor |   2.39 |     8 |         3 |    
+ REF1X20  | Regleta fluorescente 1x36 bajo F  |   8.71 |     1 |         1 |    
+ S3165136 | Bloque emergencia Satf 150 L      |   4.81 |     6 |         3 |    
+ T4501    | Tubo empotrar 100                 |   2.98 |     1 |         5 |    
+ TE7200   | Doble conmutador Bjc Ibiza blanco |  13.22 |     1 |         1 |    
+ TFM16    | Curva tubo hierro 11              |   0.33 |    23 |        13 |    
+ TH11     | Curva tubo hierro 29              |   1.42 |    20 |         3 |    
+ THC21    | Placa mural Felmax                |   1.56 |     1 |         1 |    
+ ZNCL     | Base T,t lateral Ticino S, Tekne  |  41.71 |     1 |         1 |    
+(22 rows)
+

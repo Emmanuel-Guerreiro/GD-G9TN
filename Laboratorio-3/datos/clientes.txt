@@ -1,0 +1,14 @@
+ codcli |          nombre          |         direccion         | codpostal | codpue 
+--------+--------------------------+---------------------------+-----------+--------
+    101 | Cayetano Pineda, Albero  | Cuesta, 5                 |           |  46332
+    102 | Toada Jimenez, Carlos    | En proyecto 3             |           |  17859
+    103 | Pasteu Mural, Pedro      | Colón 4                   |           |  17859
+    333 | Sos Carretero, Jesús     | Mosen Compte, 14          |     12964 |  53596
+    336 | Miguel Archilés, Ramón   | Bernardo Mundina, 132-5   |     12652 |   7766
+    342 | Pinel Huerta, Vicente    | Francisco Sempere, 37-10  |     12112 |   7766
+    345 | López Botella, Mauro     | Avenida del Puerto, 20-1  |     12010 |  12309
+    348 | Palau Martínez, Jorge    | Raval de Sant Josep, 97-2 |     12003 |  12309
+    354 | Murría Vinaiza, José     | Ciudadela, 90-18 Calle    |     12003 |  12309
+    357 | Huguet Peris, Juan Ángel | Mestre Rodrigo, 7         |     12100 |  12309
+(10 rows)
+

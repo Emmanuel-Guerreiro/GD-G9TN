@@ -1,0 +1,7 @@
+ codpro |  nombre   
+--------+-----------
+      3 | Alicante
+     12 | Castellón
+     46 | Valencia
+(3 rows)
+
