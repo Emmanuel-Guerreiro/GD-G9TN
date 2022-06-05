@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  db:
+    container_name: UTN_TP_Final
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=campos
+    ports:
+      - "5432:5432"
+    volumes:
+      - tp_final:/var/lib/postgresql/data
+volumes:
+  tp_final:

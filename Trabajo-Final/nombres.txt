@@ -1,0 +1,25 @@
+2, Berta Jeannette Canales Moreno, 10744, Dueño,NULL, 16
+3, Valentina Rivera Alvear, 4805, Jefe,2, 6
+4, Brígida Maura Caro Muñoz, 15289, Jefe,2, 20
+5, Francisca Torres Aguilera, 24538, Jefe,2, 19
+6, Priscila Salgado, 823, Empleado,3, 15
+7, María Muñoz, 36291, Empleado,3, 15
+8, Elizabeth Jiménez Tapia, 11957, Empleado,4, 19
+9, Vicente Sebastián Gómez Martínez, 10451, Empleado,8, 23
+10, Fabiola Herrera Rojas, 9014, Empleado,6, 22
+11, José Wenceslao Zúñiga Urzúa, 57334, Empleado,8, 19
+12, Isidora Espinoza, 41229, Empleado,5, 2
+13, Iván Cristopher Cid Yáñez, 37789, Empleado,7, 4
+14, Aurora Ana Veas Ojeda, 19193, Empleado,9, 3
+15, Julia María González Pereira, 13769, Empleado,9, 21
+16, Georgina Martina Guajardo Toledo, 17934, Empleado,15, 19
+17, Rubén Flores Zárate, 11119, Empleado,7, 16
+18, Juan Tomás Paredes Hormazábal, 16783, Empleado,16, 25
+19, Jorge Díaz, 33506, Empleado,16, 22
+20, Carla Vania Moreno Rodríguez, 66575, Empleado,17, 16
+21, Roberto Francisco Navarrete Moreno, 24620, Empleado,20, 18
+22, Ignacio Arévalo, 49668, Empleado,9, 12
+23, Joaquín Hormazábal Corvalán, 19116, Empleado,19, 7
+24, Ana Opazo-Navarrete Orellana, 81202, Empleado,21, 16
+25, Máximo Moisés Fernández Núñez, 23521, Empleado,8, 6
+26, Daniel Lagos, 7792, Empleado,25, 4

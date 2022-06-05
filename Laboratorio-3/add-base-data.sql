@@ -485,7 +485,7 @@ VALUES
 INSERT INTO
     facturas (codfac, fecha, codcli, codven, iva, dto)
 VALUES
-    (6799, '2014-01-03', 342, 455, 21, NULL);
+    (6797, '2014-01-03', 342, 455, 21, NULL);
 
 INSERT INTO
     facturas (codfac, fecha, codcli, codven, iva, dto)

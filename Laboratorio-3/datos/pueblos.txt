@@ -1,8 +1,9 @@
- codven |         nombre         |         direccion          | codpostal | codpue | codjefe 
---------+------------------------+----------------------------+-----------+--------+---------
-    105 | Poy Omella, Paloma     | Sanchis Tarazona, 103-1    |     12257 |  46332 |        
-      5 | Guillén Vilar, Natalia | Sant Josep, 110            |     12597 |  53596 |     105
-    155 | Rubert Cano, Diego     | Benicarlo Residencial, 154 |     12425 |  17859 |       5
-    455 | Agost Tirado, Jorge    | Pasaje Peñagolosa, 21-19   |     12914 |  53596 |       5
-(4 rows)
+ codpue |  nombre   | codpro 
+--------+-----------+--------
+   7766 | Burriana  |     12
+  12309 | Castellón |     12
+  17859 | Enramona  |     12
+  46332 | Soneja    |     12
+  53596 | Vilarreal |     12
+(5 rows)
 
