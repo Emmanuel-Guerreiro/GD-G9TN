@@ -1,29 +1,29 @@
 INSERT INTO
-    cultivos(nombre, hectareas)
+    cultivos(id, nombre, hectareas)
 values
-    ('soja', 100);
+    (1, 'soja', 100);
 
 INSERT INTO
-    cultivos(nombre, hectareas)
+    cultivos(id, nombre, hectareas)
 values
-    ('maiz', 250);
+    (2, 'maiz', 250);
 
 INSERT INTO
-    cultivos(nombre, hectareas)
+    cultivos(id, nombre, hectareas)
 values
-    ('trigo', 80);
+    (3, 'trigo', 80);
 
 INSERT INTO
-    cultivos(nombre, hectareas)
+    cultivos(id, nombre, hectareas)
 values
-    ('arvejas', 125);
+    (4, 'arvejas', 125);
 
 INSERT INTO
-    cultivos(nombre, hectareas)
+    cultivos(id, nombre, hectareas)
 values
-    ('soja', 90);
+    (5, 'soja', 90);
 
 INSERT INTO
-    cultivos(nombre, hectareas)
+    cultivos(id, nombre, hectareas)
 values
-    ('soja', 85);
+    (6, 'soja', 85);

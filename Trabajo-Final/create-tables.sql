@@ -2,8 +2,7 @@ CREATE TABLE direcciones(
     id SERIAL,
     provincia TEXT NOT NULL,
     ciudad TEXT NOT NULL,
-    calle TEXT NOT NULL,
-    numeracion TEXT,
+    dir TEXT NOT NULL,
     descripcion TEXT,
     PRIMARY KEY (id)
 );
@@ -27,7 +26,7 @@ CREATE TABLE campos(
     id_cultivo_anterior INTEGER,
     CONSTRAINT hectareas_positivas CHECK (hectareas > 0),
     PRIMARY KEY (id),
-    FOREIGN KEY (id_direccion) REFERENCES direccion(id),
+    FOREIGN KEY (id_direccion) REFERENCES direcciones(id),
     FOREIGN KEY (id_cultivo) REFERENCES cultivos(id),
     FOREIGN KEY (id_cultivo_anterior) REFERENCES cultivos(id)
 );
@@ -50,7 +49,7 @@ CREATE TABLE empleados(
     id_direccion INTEGER,
     PRIMARY KEY (id),
     FOREIGN KEY (id_jefe) REFERENCES empleados(id),
-    FOREIGN KEY (id_direccion) REFERENCES direccion(id),
+    FOREIGN KEY (id_direccion) REFERENCES direcciones(id),
     CONSTRAINT sueldo_positivo CHECK (sueldo > 0)
 );
 
@@ -73,7 +72,7 @@ CREATE TABLE proveedores(
     especialidad TEXT,
     id_direccion INTEGER,
     PRIMARY KEY(id),
-    FOREIGN KEY (id_direccion) REFERENCES direccion(id)
+    FOREIGN KEY (id_direccion) REFERENCES direcciones(id)
 );
 
 CREATE TABLE insumos(

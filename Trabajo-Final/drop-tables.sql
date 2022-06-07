@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS cultivos,
 campos,
-direccion,
+direcciones,
 ordenes_trabajo,
 empleados,
 trabajos_realizados,
