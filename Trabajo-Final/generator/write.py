@@ -4,6 +4,3 @@ def create_and_write(nombre, toWrite):
     toWrite = toWrite + "\n"
     f.write(toWrite)
     f.close()
-    
-    
-    

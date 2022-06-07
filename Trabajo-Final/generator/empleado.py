@@ -8,6 +8,7 @@ fake = Faker("es_CL")
 
 archivo_empleados = "empleados"
 
+
 def _get_rol(id):
     if id == 1:
         return "Dueño"
@@ -15,6 +16,7 @@ def _get_rol(id):
         return "Jefe"
     else:
         return "Empleado"
+
 
 def crear_empleados():
     for id in range(1, 25):
@@ -27,13 +29,14 @@ def crear_empleados():
             jefe = "NULL"
         elif rol == "Jefe":
             jefe = "2"
-            
-        #Las primeras 25 direcciones que se cargan son para empleados
+
+        # Las primeras 25 direcciones que se cargan son para empleados
         direccion = random.randint(1, 25)
         # id, nombre, sueldo, rol, id_jefe, id_direccion
-        create_and_write(archivo_empleados,
-         f"{id}, {nombre}, {sueldo}, {rol},{jefe}, {direccion}")
-        id+=1
+        create_and_write(
+            archivo_empleados, f"{id}, {nombre}, {sueldo}, {rol},{jefe}, {direccion}"
+        )
+
 
 if __name__ == "__main__":
     crear_empleados()
