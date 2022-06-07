@@ -24,12 +24,13 @@ def generate_insumo():
     for i in range(len(insumos_disp)):
         stock = random.randint(0, 100)
         nombre = insumos_disp[i]
-        ins.append((f"{i}, {nombre}, {stock}", i, stock))
+        precio = random.randint(10, 1000)
+        ins.append((f"{i},{nombre},{stock}", i, stock, precio))
 
     return ins
 
 
-def generate_provee(id_insumo, stock):
+def generate_provee(id_insumo, stock, precio):
     s = stock
     i = random.randint(0, 10000)
     provisiones = []
@@ -37,7 +38,7 @@ def generate_provee(id_insumo, stock):
         proveedor = random.randint(0, 6)
         cantidad = random.randint(0, s)
         fecha = fake.date()
-        provisiones.append(f"{i}, {proveedor}, {id_insumo}, {cantidad}, {fecha}")
+        provisiones.append(f"{i},{proveedor},{id_insumo},{cantidad},{fecha},{precio}")
         # Esto disminuye el while
         s = -cantidad
         i += 1
@@ -56,7 +57,7 @@ def generate_consume(id_insumo, stock):
         id_orden_trabajo = random.randint(0, 49)
         c = random.randint(0, stock - consumo_tot)
 
-        consumos.append(f"{id_uso}, {id_orden_trabajo}, {id_insumo}, {c}")
+        consumos.append(f"{id_uso},{id_orden_trabajo},{id_insumo},{c}")
 
         consumo_tot += c
 
@@ -65,9 +66,9 @@ def generate_consume(id_insumo, stock):
 
 def generate_all():
 
-    for (insumo, id, stock) in generate_insumo():
+    for (insumo, id, stock, precio) in generate_insumo():
         create_and_write("insumos", insumo)
-        for ii in generate_provee(id, stock):
+        for ii in generate_provee(id, stock, precio):
             create_and_write("provee", ii)
 
         for kk in generate_consume(id, stock):

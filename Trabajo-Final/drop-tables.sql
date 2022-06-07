@@ -1,8 +1,10 @@
-DROP TABLE IF EXISTS cultivos,
-campos,
-direcciones,
-ordenes_trabajo,
-empleados,
-trabajos_realizados,
+DROP TABLE IF EXISTS provee,
+consume,
+insumos,
 proveedores,
-insumos;
+trabajos_realizados,
+empleados,
+ordenes_trabajo,
+campos,
+cultivos,
+direcciones;

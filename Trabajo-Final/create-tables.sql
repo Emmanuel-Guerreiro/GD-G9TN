@@ -69,7 +69,6 @@ CREATE TABLE proveedores(
     telefono INTEGER,
     --TODO: Agregar regex?
     mail VARCHAR(256),
-    especialidad TEXT,
     id_direccion INTEGER,
     PRIMARY KEY(id),
     FOREIGN KEY (id_direccion) REFERENCES direcciones(id)
@@ -78,9 +77,29 @@ CREATE TABLE proveedores(
 CREATE TABLE insumos(
     id SERIAL,
     nombre TEXT NOT NULL,
-    stock FLOAT,
-    precio_unitario FLOAT,
-    PRIMARY KEY(id),
-    CONSTRAINT stock_positivo CHECK (stock > 0),
-    CONSTRAINT precio_unitario_positivo CHECK (precio_unitario > 0)
+    PRIMARY KEY(id)
 );
+
+CREATE TABLE consume(
+    id SERIAL,
+    id_orden_trabajo INTEGER NOT NULL,
+    id_insumo INTEGER NOT NULL,
+    cantidad FLOAT,
+    FOREIGN KEY (id_orden_trabajo) REFERENCES ordenes_trabajo(id),
+    FOREIGN KEY (id_insumo) REFERENCES insumos(id),
+    CONSTRAINT consumo_positivo CHECK (cantidad > 0)
+);
+
+CREATE TABLE provee(
+    id SERIAL,
+    id_proveedor INTEGER NOT NULL,
+    id_insumo INTEGER NOT NULL,
+    cantidad FLOAT,
+    --Funcion propia de postgres
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    precio_unitario FLOAT,
+    FOREIGN KEY (id_proveedor) REFERENCES proveedores(id),
+    FOREIGN KEY (id_insumo) REFERENCES insumos(id),
+    CONSTRAINT consumo_positivo CHECK (cantidad > 0),
+    CONSTRAINT precio_unitario_positivo CHECK (precio_unitario > 0)
+)
