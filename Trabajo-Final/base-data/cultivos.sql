@@ -1,5 +1,5 @@
 INSERT INTO
-    cultivos(nombre, hectareas)
+    cultivos(id, nombre, hectareas)
 values
     ('soja', 100);
 
