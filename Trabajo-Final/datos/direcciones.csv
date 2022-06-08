@@ -2,49 +2,49 @@
 1,Ourense,As Gimeno de las Torres,Avenida de Judith Castañeda 14,Tres perros en la puerta
 2,Ávila,Cortes del Puerto,Ronda de Herberto Amat 99 Apt. 97 ,4ta despues de la esquina
 3,Guadalajara,La Prado,Acceso de Filomena Oliveras 96 Puerta 9 ,Quebracho en la entrada
-4,Madrid,Miguel del Puerto,Paseo de Ignacia Ródenas 86,NULL
-5,Ávila,Montalvo del Penedès,Rambla Omar Aragonés 600,NULL
-6,Huesca,O Riojas del Puerto,Pasadizo de Porfirio Polo 39,NULL
+4,Madrid,Miguel del Puerto,Paseo de Ignacia Ródenas 86,
+5,Ávila,Montalvo del Penedès,Rambla Omar Aragonés 600,
+6,Huesca,O Riojas del Puerto,Pasadizo de Porfirio Polo 39,
 7,Burgos,Os Fajardo,Pasadizo Rosalva Osuna 55 Apt. 95 ,Porton Rojo
 8,Ávila,Luque de Arriba,Urbanización de Pío Samper 59 Puerta 1 ,Tres perros en la puerta
 9,Palencia,As Reséndez Medio,Pasaje Che Esteban 7 Apt. 19 ,4ta despues de la esquina
 10,Sevilla,Valle del Puerto,Camino Natividad Francisco 6,Quebracho en la entrada
-11,Lleida,As Gimeno de las Torres,Paseo Carina Azorin 518 Apt. 58 ,NULL
-12,Baleares,Cortes del Puerto,Rambla de Vilma Hernández 76,NULL
-13,Cádiz,La Prado,Cañada de Joel Mesa 885 Puerta 7 ,NULL
+11,Lleida,As Gimeno de las Torres,Paseo Carina Azorin 518 Apt. 58,
+12,Baleares,Cortes del Puerto,Rambla de Vilma Hernández 76,
+13,Cádiz,La Prado,Cañada de Joel Mesa 885 Puerta 7 ,
 14,La Rioja,Miguel del Puerto,Rambla de José Fiol 2,Porton Rojo
 15,Huesca,Montalvo del Penedès,Via Omar Tamarit 12,Tres perros en la puerta
 16,Zaragoza,O Riojas del Puerto,Pasadizo de Octavia Fuente 55,4ta despues de la esquina
 17,Girona,Os Fajardo,Via de Odalis Pulido 13,Quebracho en la entrada
-18,Salamanca,Luque de Arriba,Vial de Gisela Castellanos 483,NULL
-19,Almería,As Reséndez Medio,Cuesta de Eladio Pastor 86 Piso 3 ,NULL
-20,Palencia,Valle del Puerto,Cuesta de Melchor Álvaro 14,NULL
+18,Salamanca,Luque de Arriba,Vial de Gisela Castellanos 483,
+19,Almería,As Reséndez Medio,Cuesta de Eladio Pastor 86 Piso 3 ,
+20,Palencia,Valle del Puerto,Cuesta de Melchor Álvaro 14,
 21,La Coruña,As Gimeno de las Torres,Alameda Fabiola Arnau 66,Porton Rojo
 22,La Coruña,Cortes del Puerto,Ronda de Silvio Manrique 10,Tres perros en la puerta
 23,Badajoz,La Prado,Callejón Cebrián Toledo 32,4ta despues de la esquina
 24,Pontevedra,Miguel del Puerto,Cuesta Jose Luis León 93,Quebracho en la entrada
-25,Guipúzcoa,Montalvo del Penedès,Rambla Evita Montaña 38 Puerta 5 ,NULL
-26,Madrid,O Riojas del Puerto,Ronda Gustavo Reyes 74 Apt. 39 ,NULL
-27,Alicante,Os Fajardo,Pasaje de Reinaldo Gallego 74,NULL
+25,Guipúzcoa,Montalvo del Penedès,Rambla Evita Montaña 38 Puerta 5 ,
+26,Madrid,O Riojas del Puerto,Ronda Gustavo Reyes 74 Apt. 39 ,
+27,Alicante,Os Fajardo,Pasaje de Reinaldo Gallego 74,
 28,León,Luque de Arriba,Plaza Susanita Montenegro 13 Piso 7 ,Porton Rojo
 29,Teruel,As Reséndez Medio,Avenida de Carlos Soria 23,Tres perros en la puerta
 30,Lugo,Valle del Puerto,Plaza María Fernanda Ureña 76,4ta despues de la esquina
 31,Sevilla,As Gimeno de las Torres,Calle de Estrella Bello 8 Apt. 68 ,Quebracho en la entrada
-32,Valencia,Cortes del Puerto,Pasadizo de Joaquina Pomares 56,NULL
-33,Palencia,La Prado,Via África Ortuño 160,NULL
-34,Salamanca,Miguel del Puerto,Rambla de Luís Gallo 89,NULL
+32,Valencia,Cortes del Puerto,Pasadizo de Joaquina Pomares 56, 
+33,Palencia,La Prado,Via África Ortuño 160, 
+34,Salamanca,Miguel del Puerto,Rambla de Luís Gallo 89, 
 35,Girona,Montalvo del Penedès,Via Lorenzo Sanabria 60 Piso 9 ,Porton Rojo
 36,Zaragoza,O Riojas del Puerto,Pasadizo José Burgos 5 Puerta 7 ,Tres perros en la puerta
 37,Palencia,Os Fajardo,Calle Herberto Pinedo 21 Piso 5 ,4ta despues de la esquina
 38,Valencia,Luque de Arriba,Paseo de Celia Acosta 74,Quebracho en la entrada
-39,Cádiz,As Reséndez Medio,Pasadizo de Lucas Guzman 49 Puerta 7 ,NULL
-40,Soria,Valle del Puerto,Cañada de Teodora Ortiz 139,NULL
-41,Almería,As Gimeno de las Torres,Calle Rocío Domínguez 24,NULL
+39,Cádiz,As Reséndez Medio,Pasadizo de Lucas Guzman 49 Puerta 7 , 
+40,Soria,Valle del Puerto,Cañada de Teodora Ortiz 139, 
+41,Almería,As Gimeno de las Torres,Calle Rocío Domínguez 24, 
 42,Córdoba,Cortes del Puerto,Alameda Gabino Gilabert 2,Porton Rojo
 43,Ciudad,La Prado,Plaza de Rogelio Benítez 700,Tres perros en la puerta
 44,Palencia,Miguel del Puerto,Acceso de Américo Lucas 4,4ta despues de la esquina
 45,Barcelona,Montalvo del Penedès,Cuesta de Natividad Cañizares 8 Puerta 1 ,Quebracho en la entrada
-46,Murcia,O Riojas del Puerto,Urbanización de Marina Valenzuela 165 Piso 2 ,NULL
-47,Palencia,Os Fajardo,Pasaje de Eulalia Iglesias 78,NULL
-48,Huesca,Luque de Arriba,Vial Juanita Gras 9,NULL
+46,Murcia,O Riojas del Puerto,Urbanización de Marina Valenzuela 165 Piso 2 , 
+47,Palencia,Os Fajardo,Pasaje de Eulalia Iglesias 78, 
+48,Huesca,Luque de Arriba,Vial Juanita Gras 9, 
 49,Granada,As Reséndez Medio,Ronda de Bibiana Borrás 91 Piso 7 ,Porton Rojo

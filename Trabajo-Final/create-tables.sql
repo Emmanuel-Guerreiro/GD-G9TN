@@ -64,9 +64,9 @@ CREATE TABLE trabajos_realizados(
 
 CREATE TABLE proveedores(
     id SERIAL,
-    cuit INTEGER NOT NULL,
+    cuit TEXT NOT NULL,
     nombre TEXT NOT NULL,
-    telefono INTEGER,
+    telefono TEXT,
     --TODO: Agregar regex?
     mail VARCHAR(256),
     id_direccion INTEGER,

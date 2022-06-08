@@ -25,7 +25,7 @@ def generate_insumo():
         stock = random.randint(0, 100)
         nombre = insumos_disp[i]
         precio = random.randint(10, 1000)
-        ins.append((f"{i},{nombre},{stock}", i, stock, precio))
+        ins.append((f"{i},{nombre}", i, stock, precio))
 
     return ins
 
@@ -55,7 +55,7 @@ def generate_consume(id_insumo, stock):
 
     for _ in range(n_usos):
         id_orden_trabajo = random.randint(0, 49)
-        c = random.randint(0, stock - consumo_tot)
+        c = random.randint(1, stock - consumo_tot)
 
         consumos.append(f"{id_uso},{id_orden_trabajo},{id_insumo},{c}")
 
