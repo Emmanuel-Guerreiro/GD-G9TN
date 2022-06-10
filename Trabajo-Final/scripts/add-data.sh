@@ -2,7 +2,7 @@
 
 files=( direcciones cultivos campos ordenes_trabajo\
  empleados trabajos_realizados proveedores\
- insumos consume provee)
+ insumos consume provee )
 
 
 for file in "${files[@]}"
